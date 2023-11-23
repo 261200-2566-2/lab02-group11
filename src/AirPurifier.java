@@ -4,7 +4,7 @@ public class AirPurifier {
     double pmLevel;
     boolean power = false;
     int fanSpeed; // Level 1-5 but Level 0 is power off.
-    static String[] allModel = new String[]{"Hatari-1234", "Hatari-3310", "Hatari-XO"};
+    static String[] allModel = new String[]{"Hatari-1234", "Hatari-3310", "Hatari-XY"};
 
     AirPurifier(String model, String serial, double pmLevel){
         this.model = model;

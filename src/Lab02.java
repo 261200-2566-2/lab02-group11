@@ -5,7 +5,7 @@ public class Lab02 {
         a1.powerOn();
         a1.setFanSpeed(4);
         a1.checkStatus();
-        a1.sensorPM(73.38);
+        a1.sensorPM(73.32);
         a1.checkStatus();
         a1.powerOff();
         a1.checkStatus();
