@@ -1,0 +1,32 @@
+1.give a complete description of AirPurifier class
+what should be instance variables?
+ANS model(String),serial(String),pmLevel(double),fanSpeed(int),power(bolean)
+
+what should be instance methods?
+ANS powerOn(), powerOff() ,checkState(),setFanSpeed(),sensorPM()
+
+what should be class variables?
+ANS  String[] allModel(String)
+
+what should be class methods?
+ANS bestSellermodel(),listAllModel()
+
+2.for each method proposed above, how do you plan to implement it?
+give an overview of the computation
+    what's needed as inputs?
+ANS powerOn() = no input
+    powerOff() = no input
+    checkState()= no input
+    setFanSpeed() = fanspeed
+    sensorPM() = PMlevel
+    bestSellermodel() = no input
+   what's to be returned?
+   ANS powerOn() no return(void)
+       powerOff() no return(void)
+       checkState()no return(void)
+       setFanSpeed()no return(void)
+       sensorPM() no return(void)
+       bestSellermodel() no return(void)
+
+
+
